@@ -1,0 +1,50 @@
+# ── Environment & Secrets ─────────────────────────────────────────────────────
+.env
+.env.*
+cookies.txt
+
+# ── Python ─────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+
+# ── Virtual Environment ────────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+
+# ── Downloaded / Generated Media ───────────────────────────────────────────────
+downloades/
+downloads/
+*.wav
+*.mp3
+*.webm
+*.m4a
+*.mp4
+
+# ── Vector Store / RAG cache ───────────────────────────────────────────────────
+chroma_db/
+*.sqlite3
+
+# ── Whisper / HuggingFace model cache (if downloaded locally into repo) ────────
+models/
+*.pt
+*.bin
+
+# ── Streamlit ───────────────────────────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ── IDE / Editor ────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+
+# ── OS files ────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Logs ────────────────────────────────────────────────────────────────────────
+*.log
